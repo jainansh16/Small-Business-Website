@@ -1,0 +1,123 @@
+body {
+    background: grey;
+}
+
+header {
+    display: flex;
+}
+
+#company_name {
+    font-size: 5rem;
+    flex: 5;
+    color: black;
+    position: relative;
+    top: 10px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#home_page_name {
+    margin-top: 54px;
+    margin-right: 115px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 2rem;
+    flex: 5;
+    color: black;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    text-decoration: underline;
+}
+
+#logo_div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#logo {
+    display: block;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+    margin-left: auto;   
+    margin-right: auto;
+}
+
+nav {
+    background: rgb(1, 170, 170);
+    padding: 1%;
+    flex: 100%;
+    display: flex;
+    position: relative;
+    bottom: 50px;
+}
+
+nav ul {
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+nav li a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.center_text {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.page_layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 70px;
+}
+
+.store_page_pictures {
+    width: 400px;
+    position: relative;
+    left: -100px;
+}
+
+#bio_picture{
+    width: 400px;
+    position: relative;
+    left: 430px;
+    border-radius: 50%;
+}
+
+button {
+    position: absolute;
+    left: 565px;
+    top: 50px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+#clock {
+    position: relative;
+    top: 400px;
+}
